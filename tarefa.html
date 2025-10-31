@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cadastro de Tarefas</title>
+  <link rel="stylesheet" href="tarefa.css">
+</head>
+<body>
+  <header>
+    <h1>Gerenciamento de Tarefas - Indústria Alimentícia</h1>
+  </header>
+
+   <nav>
+    <a href="index.html">Cadastro de Usuário</a>
+    <a href="tarefa.html">Cadastro de Tarefas</a>
+    <a href="gerenciar.html">Gerenciar Tarefas</a>
+  </nav>
+
+  <main>
+    <h2>Cadastro de Tarefas</h2>
+
+    <form id="formTarefa">
+      <label for="usuario">Usuário:</label>
+      <select id="usuario" name="usuario" required>
+        <option value="">Selecione um usuário</option>
+        <option value="1">Usuário 1</option>
+        <option value="2">Usuário 2</option>
+      </select>
+
+      <label for="descricao">Descrição da Tarefa:</label>
+      <input type="text" id="descricao" name="descricao" required>
+
+      <label for="setor">Setor:</label>
+      <input type="text" id="setor" name="setor" required>
+
+      <label for="prioridade">Prioridade:</label>
+      <select id="prioridade" name="prioridade" required>
+        <option value="baixa">Baixa</option>
+        <option value="média">Média</option>
+        <option value="alta">Alta</option>
+      </select>
+
+      <label for="status">Status:</label>
+      <input type="text" id="status" name="status" value="a fazer" readonly>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+
+    <p id="mensagem"></p>
+  </main>
+
+  <script src="tarefa.js"></script>
+</body>
+</html>
