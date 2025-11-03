@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brindes - Funcionário do Mês</title>
+  <link rel="stylesheet" href="brindes.css">
+</head>
+<body>
+
+  <header>
+    <h1>Brindes - Funcionário do Mês</h1>
+  </header>
+<nav>
+    <a href="index.html">Cadastro de Usuário</a>
+    <a href="tarefa.html">Cadastro de Tarefas</a>
+    <a href="gerenciar.html">Gerenciar Tarefas</a>
+     <a href="brindes.html">Funcionário do mês</a>
+  </nav>
+  <main>
+    <h2>Envio do Brinde para Funcionário</h2>
+
+    <label for="funcionario">Funcionário:</label>
+    <select id="funcionario">
+      <option value="">Selecione o funcionário</option>
+      <option value="Pérola">Pérola</option>
+        <option value="Lila">Lila</option>
+        <option value="Maria">Maria</option>
+       
+    </select>
+
+    <label for="cep">CEP do Funcionário:</label>
+    <input type="text" id="cep" placeholder="Digite o CEP">
+
+    <button id="buscarCep">Buscar Endereço</button>
+
+    <div id="endereco" class="endereco"></div>
+
+    <label for="brinde">Brinde:</label>
+    <select id="brinde">
+      <option value="">Selecione o brinde</option>
+      <option value="Vale-presente R$50">Placa personalizada</option>
+      <option value="Almoço especial">Ingresso para cinema</option>
+      <option value="Dia de folga extra">Dia de folga extra</option>
+      <option value="Cesta de chocolates">Cesta de chocolates</option>
+    </select>
+
+    <button id="atribuirBrinde">Atribuir Brinde</button>
+
+    <div id="mensagem" class="mensagem" style="display:none;"></div>
+  </main>
+
+  <script src="brindes.js"></script>
+</body>
+</html>
