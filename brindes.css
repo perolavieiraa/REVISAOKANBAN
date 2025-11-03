@@ -45,7 +45,8 @@ button {
 }
 
 button {
-    background-color: #1E88E5 color: white;
+    background-color: #1E88E5;
+    color: white;
     border: none;
     cursor: pointer;
     margin-top: 15px;
