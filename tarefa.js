@@ -1,4 +1,4 @@
-document.getElementById("formTarefa").addEventListener("submit", function(e) {
+document.getElementById("formTarefa").addEventListener("submit", function (e) {
   e.preventDefault();
 
   const usuario = document.getElementById("usuario").value.trim();

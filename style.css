@@ -32,7 +32,7 @@ main {
   margin: 60px auto;
   padding: 20px;
   border-radius: 6px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -45,7 +45,8 @@ label {
   font-weight: bold;
 }
 
-input[type="text"], input[type="email"] {
+input[type="text"],
+input[type="email"] {
   width: 100%;
   padding: 8px;
   margin-top: 5px;
