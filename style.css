@@ -1,84 +1,66 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #f5f5f5;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #007bff;
+  background-color: #004aad;
   color: white;
-  padding: 12px 16px;
   text-align: center;
+  padding: 15px 0;
 }
 
-nav {
-  background-color: #0056b3;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 10px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-main {
-  background-color: white;
-  width: 360px;
+.container {
+  max-width: 400px;
+  background: white;
   margin: 60px auto;
-  padding: 20px;
-  border-radius: 6px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
-h2 {
-  text-align: center;
-}
-
-label {
+.form label {
   display: block;
   margin-top: 10px;
   font-weight: bold;
 }
 
-input[type="text"],
-input[type="email"] {
+.form input {
   width: 100%;
   padding: 8px;
   margin-top: 5px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 
-button {
-  width: 100%;
-  background-color: #007bff;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
+.btn {
   margin-top: 15px;
+  background-color: #004aad;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 16px;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #0056b3;
+.btn:hover {
+  background-color: #00337a;
 }
 
-#mensagem {
-  text-align: center;
+.mensagem {
   margin-top: 10px;
-  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
 }
 
-.sucesso {
-  color: green;
-}
-
-.erro {
+.mensagem.erro {
   color: red;
+}
+
+.mensagem.sucesso {
+  color: green;
 }
