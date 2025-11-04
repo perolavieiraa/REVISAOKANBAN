@@ -1,7 +1,7 @@
 let tarefas = [
-  { id: 1, usuario: "Usuário 1", descricao: "Verificar estoque", setor: "Produção", prioridade: "Alta", status: "a fazer" },
-  { id: 2, usuario: "Usuário 2", descricao: "Conferir validade", setor: "Qualidade", prioridade: "Média", status: "fazendo" },
-  { id: 3, usuario: "Usuário 1", descricao: "Emitir relatório", setor: "Administrativo", prioridade: "Baixa", status: "pronto" }
+  { id: 1, usuario: "Pérola", descricao: "Verificar estoque", setor: "Produção", prioridade: "Alta", status: "a fazer" },
+  { id: 2, usuario: "Maria", descricao: "Conferir validade", setor: "Qualidade", prioridade: "Média", status: "fazendo" },
+  { id: 3, usuario: "Lila", descricao: "Emitir relatório", setor: "Administrativo", prioridade: "Baixa", status: "pronto" }
 ];
 
 function exibirTarefas() {
